@@ -1,6 +1,6 @@
 # PLAYER KNOWN’S BATTLEGROUNDS
 
-This is a course project of Algorithm Design and Analysis cooperate with [Zhehuan Chen](https://acmlczh.github.io/). (May 2021 - June 2021)
+This is a course project of Algorithm Design and Analysis cooperate with [Yian Wang](https://wangyian-me.github.io/). (May 2021 - June 2021)
 
 Generally speaking, we designed the enviroment and task that contain two agant with competition.
 We want to see what interesting strategies they will learn by implementing TD3 reinforcement learning for both agent.
@@ -11,7 +11,7 @@ We want to see what interesting strategies they will learn by implementing TD3 r
 * Player 1 is able to shoot bullets, while Player 2 trying to avoid them.
 * The bullets are with fixed velocities and we only allow at most 8 bullets on the playground.
   (with means that player1 can shoot the next bullet only when one of the bullets goes out of the playground)
-  
+
 * Player 1 wins if one of the bullets hits Player 2 with in 100 timestep. Player2 wins otherwise.
 * To simplify the setting, Player 1 will shoot whenever it can (less than 8 bullets on the playground, 3 timestep after it shoots the last bullets.). So it only has to control the shooting direction.
 * Other details could be found in our code and gifs.
@@ -52,5 +52,3 @@ In this step, we got suprising results for both agents.
 ![result_train3](/pic/train3.gif)
 ![result_train4](/pic/train4.gif)
 ![result_train5](/pic/train5.gif)
-
-
